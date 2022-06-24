@@ -1,0 +1,174 @@
+/*   start main rules */
+body{padding: 0;margin: 0;font-family: monospace;}
+/*  container دا عشان شغلي يجي فالنص زي ما انا دايرة*/
+.container{width: 1170px;margin: auto;}
+/* دي بعالج بيها ال float left و right*/
+.clearfix{clear: both}
+/*   end main rules */
+ .fl-left{ float:right}
+/*start page2*/
+
+.page2 {  
+    height: auto;
+    width: 100%;
+  }
+  .page2 header .navbar{
+    background-color: #4d84e2;
+    color: #fff;
+    overflow: hidden;
+    height: 65px;
+
+
+   }
+   .page2 header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+    }
+    .page2 header .navbar h2{ float: right; font-family: monospace;font-size: 25;}
+    .page2 header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: left;
+    font-weight: bold;
+    font-size: large;
+}
+
+.page2 header .navbar ul li{
+    float: right ;
+    padding: 13px;
+    
+}
+.page2 header .navbar ul li a {
+    color: #FFF;
+    text-decoration: none; /* عشان الغي الخظ التجت الرابط*/
+
+}
+.page2 header .navbar ul li.active a,  /* عكلت كلاس الاكتف دا غشان اخلي الهوم لونها ثابت بي نفس لةن الهفر*/
+.page2 header .navbar ul li a:hover{
+    border: 1px solid white;
+    border-radius: 49px;
+    padding: 7px;
+    color:#FFF;
+    background-color: #4d84e2;
+}
+ .heading {
+      text-align: center;
+      padding-top: 5px
+  }
+  .heading span{
+      text-transform: uppercase;
+  }
+  .heading h1{
+      margin-bottom: 2px;
+      line-height: 1.5;
+      font-weight: 300;
+      color: #000;
+      padding-bottom: 0px;
+  }
+   .heading p{
+      font-size: 18px;
+      line-height: 1.2;
+      color: #828282;
+      text-align: center;
+      display: inline-block;
+      width: 750px;
+      padding-top: 0px;
+  }
+  .page2 .boxx{
+      overflow: hidden;
+      padding-top: 1px;
+      padding-bottom: 5px;
+      display: inline-block;
+      width: 32.22222%;
+      padding-right: 5px
+  }
+  .page2 .boxx .image h2{
+    text-align: right;
+  }
+  .page2 .boxx .image h4{
+      font-size: 17px;
+      color: #444444;
+      margin-bottom: 15px;
+      text-align: center;
+      width: 80%;
+      
+  }
+  .page2 .boxx .image h4 input{
+    width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: monospace;
+    padding-top: 15px;
+  }
+  .page2 .boxx .image h4 input:hover {
+    background-color: #4d84e2;
+  }
+  .page2 .boxx .image img{
+   width: 80%;
+   margin: 10px;
+   padding: 3px;
+   background-color: #FFF;
+   border: 0px solid #CCC;
+   /*box-shadow: 10px 10px 12px #CCC;*/
+  }
+  .page2 .boxx .image span{
+   text-decoration: line-through
+  }
+  input{
+    background-color: #4B5557;
+   color: #FFF;
+   padding: 10px;
+   border: 0;
+   width: 45%;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   text-align: center;
+   float: inherit;
+   }
+  /*end page2*/
+  .btn {
+    width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+
+  }
+  
+  .btn:hover {
+    background-color: #4d84e2;
+  }
+  a {
+    font-family: monospace;
+    color: #FFF;
+    text-decoration: none; /* عشان الغي الخظ التجت الرابط*/
+
+}
+hr {
+  height: 0;
+  width: 70px;
+  border: 1.5px solid #4d84e2;
+  background: #4d84e2;
+  margin: 5;
+  display: inline-block;
+  margin-bottom: 10px;
+}

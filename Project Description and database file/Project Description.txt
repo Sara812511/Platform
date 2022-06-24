@@ -1,0 +1,14 @@
+Project Description:
+An educational platform for deaf and hard of hearing students in Sudan to facilitate the educational process for them. 
+The platform includes education for preschoolers where they are taught letters and numbers in the form of sign language videos.
+
+Team division:
+
+Front-End:
+1-Amna Saeed.
+2-leena MohammedAhmed.
+
+Back-End:
+1-Sara Alfadel.
+2-Safa Osman.
+3-Shaza Mohammed.
